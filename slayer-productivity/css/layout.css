@@ -1,0 +1,203 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:var(--bg);
+color:var(--text);
+
+font-family:
+Segoe UI,
+sans-serif;
+
+height:100vh;
+overflow:hidden;
+
+}
+
+.app{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+
+width:250px;
+
+background:var(--surface);
+
+padding:20px;
+
+border-right:
+1px solid var(--border);
+
+}
+
+.logo{
+margin-bottom:40px;
+}
+
+.logo span{
+font-size:12px;
+color:var(--muted);
+}
+
+.nav{
+
+padding:12px;
+margin-bottom:10px;
+
+cursor:pointer;
+
+border-radius:12px;
+
+}
+
+.nav:hover{
+background:#1d2834;
+}
+
+.nav.active{
+background:#21303f;
+color:var(--cyan);
+}
+
+.main{
+flex:1;
+display:flex;
+flex-direction:column;
+}
+
+.topbar{
+
+height:70px;
+
+display:flex;
+
+align-items:center;
+justify-content:space-between;
+
+padding:0 25px;
+
+border-bottom:
+1px solid var(--border);
+
+}
+
+.search{
+
+width:250px;
+
+padding:10px;
+
+border:none;
+
+outline:none;
+
+border-radius:10px;
+
+background:var(--card);
+
+color:white;
+
+}
+#dashboard-page{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding:20px;
+
+}
+.topbar{
+
+    display:flex;
+
+    justify-content:
+    space-between;
+
+    align-items:center;
+
+    padding:20px;
+
+    border-bottom:
+    1px solid #1f2937;
+
+}
+
+.topbar-right{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.icon-btn{
+
+    border:none;
+
+    background:var(--card);
+
+    border-radius:10px;
+
+    padding:10px;
+
+    cursor:pointer;
+
+}
+.profile-btn{
+
+    border:none;
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+}
+@media (max-width: 900px){
+
+    .sidebar{
+
+        width:80px;
+
+    }
+
+    .sidebar .logo span{
+
+        display:none;
+
+    }
+
+    .nav{
+
+        font-size:12px;
+
+    }
+
+}
+@media (max-width: 768px){
+
+    .app{
+
+        flex-direction:column;
+
+    }
+
+    .sidebar{
+
+        width:100%;
+
+        height:auto;
+
+    }
+
+}

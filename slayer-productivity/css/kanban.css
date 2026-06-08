@@ -1,0 +1,11 @@
+.kanban-board{
+    display:flex;
+    gap:20px;
+}
+
+.kanban-column{
+    flex:1;
+    min-height:500px;
+    background:var(--card);
+    border-radius:16px;
+}

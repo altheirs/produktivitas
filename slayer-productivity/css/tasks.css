@@ -1,0 +1,57 @@
+.tasks-header{
+
+    display:flex;
+
+    justify-content:
+    space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.task-card{
+
+    display:flex;
+
+    justify-content:
+    space-between;
+
+    align-items:center;
+
+    padding:20px;
+
+    border-radius:16px;
+
+    background:var(--card);
+
+    margin-bottom:15px;
+
+}
+
+.badge{
+
+    padding:8px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+}
+
+.badge.high{
+
+    background:#ff4d4d;
+
+}
+
+.badge.medium{
+
+    background:#ffb84d;
+
+    color:black;
+
+}

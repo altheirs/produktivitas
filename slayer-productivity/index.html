@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>⚡ SlayerOS</title>
+
+<link rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+<!-- Core CSS -->
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/components.css">
+
+<!-- Pages CSS -->
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/tasks.css">
+<link rel="stylesheet" href="css/projects.css">
+<link rel="stylesheet" href="css/project-detail.css">
+<link rel="stylesheet" href="css/notes.css">
+<link rel="stylesheet" href="css/kanban.css">
+<link rel="stylesheet" href="css/habits.css">
+<link rel="stylesheet" href="css/goals.css">
+<link rel="stylesheet" href="css/focus.css">
+<link rel="stylesheet" href="css/finance.css">
+<link rel="stylesheet" href="css/notifications.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<aside class="sidebar">
+
+    <div class="logo">
+
+        <h2>⚡ SlayerOS</h2>
+
+        <span>
+            Personal Operating System
+        </span>
+
+    </div>
+
+    <nav>
+
+        <div class="nav active"
+             data-page="dashboard">
+
+            Dashboard
+
+        </div>
+
+        <div class="nav"
+             data-page="tasks">
+
+            Tasks
+
+        </div>
+
+        <div class="nav"
+             data-page="projects">
+
+            Projects
+
+        </div>
+
+        <div class="nav"
+             data-page="notes">
+
+            Knowledge
+
+        </div>
+
+        <div class="nav"
+             data-page="kanban">
+
+            Kanban
+
+        </div>
+
+        <div class="nav"
+             data-page="habits">
+
+            Habits
+
+        </div>
+
+        <div class="nav"
+             data-page="goals">
+
+            Goals
+
+        </div>
+
+        <div class="nav"
+             data-page="focus">
+
+            Focus
+
+        </div>
+
+        <div class="nav"
+             data-page="finance">
+
+            Finance
+
+        </div>
+
+        <div class="nav"
+             data-page="calendar">
+
+            Calendar
+
+        </div>
+
+    </nav>
+
+</aside>
+
+<main class="main">
+
+    <header class="topbar">
+
+        <div class="topbar-left">
+
+            <input
+                class="search"
+                type="text"
+                placeholder="Search..."
+            >
+
+        </div>
+
+        <div class="topbar-right">
+
+            <button class="icon-btn">
+                🔔
+            </button>
+
+            <button class="icon-btn">
+                ⚙️
+            </button>
+
+            <button class="profile-btn">
+                AG
+            </button>
+
+        </div>
+
+    </header>
+
+    <section id="dashboard-page">
+
+    </section>
+
+</main>
+
+</div>
+
+<!-- Core Foundation Layer -->
+
+<script src="js/core/storage.js"></script>
+<script src="js/core/eventManager.js"></script>
+<script src="js/core/database.js"></script>
+<script src="js/core/sanitizer.js"></script>
+<script src="js/core/notificationManager.js"></script>
+<script src="js/core/searchEngine.js"></script>
+
+<!-- Services -->
+
+<script src="js/services/projectService.js"></script>
+<script src="js/services/taskService.js"></script>
+<script src="js/services/noteService.js"></script>
+<script src="js/services/dashboardService.js"></script>
+
+<!-- Seed Data -->
+
+<script src="js/data/projects.js"></script>
+<script src="js/data/tasks.js"></script>
+
+<!-- Components -->
+
+<script src="js/components/card.js"></script>
+<script src="js/components/modal.js"></script>
+<script src="js/components/sidebar.js"></script>
+<script src="js/components/topbar.js"></script>
+<script src="js/components/chart.js"></script>
+
+<!-- Pages -->
+
+<script src="js/pages/dashboard.js"></script>
+<script src="js/pages/tasks.js"></script>
+<script src="js/pages/projects.js"></script>
+<script src="js/pages/projectDetail.js"></script>
+<script src="js/pages/notes.js"></script>
+<script src="js/pages/kanban.js"></script>
+<script src="js/pages/habits.js"></script>
+<script src="js/pages/goals.js"></script>
+<script src="js/pages/focus.js"></script>
+<script src="js/pages/finance.js"></script>
+<script src="js/pages/calendar.js"></script>
+
+<!-- Router -->
+
+<script src="js/core/router.js"></script>
+
+<!-- App -->
+
+<script src="js/core/app.js"></script>
+
+</body>
+</html>

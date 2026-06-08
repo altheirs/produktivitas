@@ -1,0 +1,52 @@
+.projects-header{
+
+    display:flex;
+
+    justify-content:
+    space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.btn-primary{
+
+    border:none;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:var(--cyan);
+
+    color:black;
+
+    font-weight:bold;
+
+}
+
+.project-progress{
+
+    margin-top:15px;
+
+    height:8px;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    background:#253344;
+
+}
+
+.project-fill{
+
+    height:100%;
+
+    background:var(--cyan);
+
+}

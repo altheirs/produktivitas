@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SlayerOS</title>
+
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>⚡ SlayerOS</h2>
+            <span>Personal Operating System</span>
+        </div>
+
+        <nav>
+
+            <div class="nav active">Dashboard</div>
+            <div class="nav">Tasks</div>
+            <div class="nav">Projects</div>
+            <div class="nav">Notes</div>
+            <div class="nav">Focus</div>
+
+        </nav>
+
+    </aside>
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <h1>Dashboard</h1>
+
+            <input
+                class="search"
+                placeholder="Search..."
+            >
+
+        </header>
+
+        <section id="dashboard-page">
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/data/seed.js"></script>
+<script src="js/pages/dashboard.js"></script>
+<script src="js/core/app.js"></script>
+
+</body>
+</html>
